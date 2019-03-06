@@ -1,0 +1,40 @@
+
+		
+ul.specifications {
+    padding: 0;
+    margin: 0;
+    list-style-type: none; 
+    }
+    
+ul.specifications li {
+    border-bottom: 1px dotted #C2C2C2; /* Необязателен. Здесь задается толщина, тип и цвет точек */
+    position: relative;
+    padding: 0;
+    margin-bottom:5px; /* Необязателен. Задается для установки расстояния между блоками li */
+    }
+    
+ul.specifications li span {
+    background-color: #FFF; /* Это необходимо, чтобы перекрыть точки фоном */
+    margin: 0;
+    }
+
+ul.specifications li span.text, ul.specifications li span.info {
+    bottom: -5px; /* Смещаем значимые блоки, чтобы они перекрыли точки */
+    }
+
+ul.specifications span.text {
+    position :relative;
+    margin-right:7em; /* Задается чтобы текст не заходил на номера страниц */
+    padding-right:2px; /* Необязателен. Задается чтобы точки не подходили вплотную к концу текста */
+    }
+    
+ul.specifications span.info {
+    position: absolute;
+    right: 0;
+    padding-left:2px; /* Необязателен. Задается чтобы точки не подходили вплотную к номерам страниц */
+    }
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+			font-weight: 600;
+			color: #3fb938!important;
+			border-bottom: 2px solid #3fb938;
+		}
